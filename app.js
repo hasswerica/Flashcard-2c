@@ -14,11 +14,13 @@ function criaCartao (catgoria, pergunta, resposta){
                    </div>
                 </div>
             </article>
+            `
             let respostaEstaVisivel = false
             function viraCartao (){
             respotaEstaVisivel =!respostaEstaVisivel
             cartao.classlist.toogle('article', respostaEtaVisivel)
             }
-            cartao.addEventLIsten
+            cartao.addEventLIsten ('click', viraCartao)
+            container.appendchild(cartao)
     `
 }
